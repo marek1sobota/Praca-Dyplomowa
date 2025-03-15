@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; 
+  background: linear-gradient(45deg, red, blue);
+  background-attachment: fixed; 
+  background-size: cover; 
+}
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
