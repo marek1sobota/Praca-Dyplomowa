@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px; 
+    width: 90%;
+    position: relative; 
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap; 
+    flex: 0 1 auto; 
+    margin-right: auto; 
+    margin-left: auto; 
+  }
+  
+  .navbar-link {
+    background-color: hsl(295, 97%, 35%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 0; 
+  }
+  
+  .navbar-link:hover {
+    background-color: hsl(295, 97%, 45%); 
+  }
+  
+  .navbar-user {
+    position: absolute; 
+    right: 0px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    padding-right: 0px; 
+  }
+  
+  .user-icon {
+    color: black;
+    font-size: 60px;
+    cursor: pointer;
+  }
+  
+  .user-menu {
+    position: absolute;
+    top: 50px; 
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000; 
+    min-width: 150px; 
+    white-space: nowrap; 
+  }
+  
+  .user-menu-item {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .user-menu-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .username {
+    margin-right: 10px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    align-self: center;
+  }
